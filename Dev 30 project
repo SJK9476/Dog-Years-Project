@@ -1,0 +1,21 @@
+const myAge = 28
+// This variable is set to my current age as a number
+
+var earlyYears = 2
+// Variable assigned to represent a dogs first 2 years of life
+
+earlyYears *= 10.5
+
+var laterYears = myAge - 2;
+// Variable assigned to account for the ages 2 - 26 of my life
+
+laterYears *= 4;
+// reassignment and multiplication of laterYears to account for 1 human year equaling 4 dog years in this time period.
+
+var myAgeInDogYears = earlyYears + laterYears;
+// variable representing my human age, 28; in dog years.
+
+var myName = 'SAMUEL'.toLowerCase();
+// variable both defining my name as Samuel and making sure it's displayed in lowercase.
+
+console.log(`My name is ${myName}. I am ${myAge} years old in human years which is ${myAgeInDogYears} years old in dog years.`);
